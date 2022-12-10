@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes, FaSignInAlt } from "react-icons/fa";
-import Logo from "../assets/images/Logo.svg";
-import Imagem from "../assets/images/IMAGEM.svg"
+import Logo from '../assets/images/Logo.svg';
 
 function Header()
 {
@@ -29,19 +28,6 @@ function Header()
                 </nav>
             </div>
         </header>
-        <div className="flex flex-row justify-between mt-24">
-            <div className="flex flex-col px-16 py-12">
-                <a className="text-5xl font-light leading-snug">Deixe que a parte<br/> chata e trabalhosa<br/> a gente faz!</a>
-                <a className="mt-5 font-semibold">Somos uma empresa especializada em Digitalização de<br/> Documetnos e em soluções para Gestão Eletrônica de<br/> Doucmentos(GED).</a>
-                <button className="w-64 h-14 rounded bg-[#13C194] text-white font-semibold mt-5">Conhecer a Digitaliza</button>
-            </div>
-            <div>
-                <img src={Imagem} className="w-4/6 h-auto hidden md:block"></img>
-            </div>
-        </div>
-        <div className="flex mt-24 justify-center">
-            <a className="text-[#16C194] text-5xl font-bold text-center">Nós estamos presente em todo o estado</a>
-        </div>
     </div>
 }
 
