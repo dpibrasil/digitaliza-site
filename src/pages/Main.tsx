@@ -17,33 +17,35 @@ function Main()
 {
     return <div>
         <Header />
-        <div className="flex flex-row justify-between mt-24">
-            <div className="flex flex-col px-16 py-12 w-5/12">
-                <a href="/#" className="text-5xl font-light leading-snug">Deixe que a parte chata e trabalhosa a gente faz!</a>
-                <a href="/#" className="mt-5 font-semibold">Somos uma empresa especializada em Digitalização de Documentos e em soluções para Gestão Eletrônica de Doucmentos(GED).</a>
+        <div className="flex flex-col lg:flex-row items-center justify-between lg:mt-24">
+            <div className="flex flex-col px-16 py-12 items-center lg:items-start lg:w-5/12">
+                <a href="/#" className="text-4xl lg:text-5xl text-center lg:text-left font-normal lg:font-light leading-snug">Deixe que a parte chata e trabalhosa a gente faz!</a>
+                <a href="/#" className="mt-5 font-semibold text-center lg:text-left">Somos uma empresa especializada em Digitalização de Documentos e em soluções para Gestão Eletrônica de Doucmentos(GED).</a>
                 <button className="w-64 h-14 rounded bg-[#13C194] text-white font-semibold mt-5">Conhecer a Digitaliza</button>
             </div>
             <div>
-                <img src={Imagem} className="w-4/6 h-auto hidden md:block"></img>
+                <img src={Imagem} className="px-14 md:px-56 lg:p-0 lg:w-4/6 h-auto "></img>
             </div>
         </div>
         <div className="flex mt-24 justify-center">
-            <a href="/#" className="text-[#13C194] text-5xl font-bold text-center">Nós estamos presente em todo o estado</a>
+            <a className="text-[#13C194] text-4xl lg:text-5xl font-bold text-center">Nós estamos presente em todo o estado</a>
         </div>
-        <div className="flex flex-row justify-between mt-24">
+        <div className="flex flex-col lg:flex-row items-center lg:justify-between lg:mt-24">
             <div className="px-8">
-                <img src={Secure} className="w-4/6 h-auto hidden md:block"></img>
+                <img src={Secure} className="h-auto md:px-40 lg:p-0"></img>
             </div>
-            <div className="flex flex-col py-24 mr-72 w-5/12">
-                <a href="/#" className="text-5xl font-light leading-snug"><a className="font-medium">Acesso facilitado</a> e Prático de docs (GED) online.</a>
-                <a href="/#" className="mt-5 font-semibold">Você tem acesso a diversos documentos digitalizados em poucos cliques, acessando apenas a dashboard da sua empresa e pesquisar o arquivo desejado já digitalizado.</a>
-                <button className="w-64 h-14 rounded bg-[#13C194] text-white font-semibold mt-5">Acessar documentos</button>
+            <div className="flex flex-col lg:py-40 w-10/12 mr-5 lg:w-8/12">
+                <a href="/#" className=" text-4xl lg:text-5xl font-light leading-snug text-center lg:text-left"><a className="font-medium">Acesso facilitado</a> e Prático de docs (GED) online.</a>
+                <a href="/#" className="mt-5 font-semibold  text-center lg:text-left">Você tem acesso a diversos documentos digitalizados em poucos cliques, acessando apenas a dashboard da sua empresa e pesquisar o arquivo desejado já digitalizado.</a>
+                <div className="flex justify-center lg:justify-start mb-10">
+                    <button className="w-64 h-14 rounded bg-[#13C194] text-white font-semibold mt-5 ">Acessar documentos</button>
+                </div>
             </div>
         </div>
-        <div className="flex flex-row justify-between w-full bg-slate-300 mb-20 p-16">
-            <div className="flex flex-col w-auto h-80 bg-white rounded-3xl py-10">
-                <a href="/#" className="text-5xl font-bold text-[#13C194] mt-3 ml-5">Nossos<br/>serviços</a>
-                <a href="/#" className="text-[#13C194] ml-6 mr-6 mt-5">Prezamos pela <a className="font-bold">organização e agilidade<br/> na preparação e organização</a> dos seus<br/> arquivos digitalizados. Um serviço<br/> responsável de ponta-a-ponta.</a>
+        <div className="flex flex-col lg:flex-row items-center lg:justify-between w-full bg-slate-300 mb-20 p-16">
+            <div className="flex flex-col w-auto h-80 bg-white rounded-3xl py-10 mb-10 lg:mb-0 mr-10 ">
+                <a href="/#" className="text-4xl md:text-5xl font-bold text-[#13C194] mt-3 ml-5">Nossos<br/>serviços</a>
+                <a href="/#" className="text-[#13C194] ml-6 mr-6 mt-5 text-sm">Prezamos pela <a className="font-bold">organização e agilidade<br/> na preparação e organização</a> dos seus<br/> arquivos digitalizados. Um serviço<br/> responsável de ponta-a-ponta.</a>
             </div>
             <div>
                 <div className="flex flex-row">

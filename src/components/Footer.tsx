@@ -2,15 +2,15 @@ import React from "react";
 import Logo from "../assets/images/Logo branca 1.svg"
 
 export default function Footer(){
-    return <div className="flex flex-row w-full bg-[#13C194] justify-between p-10">
-        <div className="flex flex-col">
+    return <div className="flex flex-col md:flex-row w-full bg-[#13C194] items-center justify-between p-10">
+        <div className="flex flex-col items-center">
             <a className="text-white font-extralight">Digitaliza é uma ferramenta que<br/>
             une diversos arquivos de forma<br/> 
             organizada e prática.</a>
             <a className="text-white mt-5">© 2022 Digitaliza. All rights reserved.</a>
         </div>
         <div>
-            <img src={Logo}></img>
+            <img src={Logo} className="p-4"></img>
         </div>
         <div className="flex flex-col">
             <div className="justify-between">
