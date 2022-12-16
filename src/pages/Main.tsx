@@ -38,7 +38,7 @@ function Main()
                 <a href="/#" className=" text-4xl lg:text-5xl font-light leading-snug text-center lg:text-left"><a className="font-medium">Acesso facilitado</a> e Prático de docs (GED) online.</a>
                 <a href="/#" className="mt-5 font-semibold  text-center lg:text-left">Você tem acesso a diversos documentos digitalizados em poucos cliques, acessando apenas a dashboard da sua empresa e pesquisar o arquivo desejado já digitalizado.</a>
                 <div className="flex justify-center lg:justify-start mb-10">
-                    <a target="_blank" href="https://ged.digitalizasantana.com.br" className="w-64 h-14 rounded bg-[#13C194] text-white font-semibold mt-5 ">Acessar documentos</a>
+                    <a target="_blank" href="https://ged.digitalizasantana.com.br" className="w-64 flex items-center justify-center h-14 rounded bg-[#13C194] text-white font-semibold mt-5 ">Acessar documentos</a>
                 </div>
             </div>
         </div>
