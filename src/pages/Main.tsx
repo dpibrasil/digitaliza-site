@@ -17,7 +17,7 @@ function Main()
 {
     return <div>
         <Header />
-        <div className="flex flex-col lg:flex-row items-center justify-between lg:mt-24">
+        <div id="about-us" className="flex flex-col lg:flex-row items-center justify-between lg:mt-24">
             <div className="flex flex-col px-16 py-12 items-center lg:items-start lg:w-5/12">
                 <a href="/#" className="text-4xl lg:text-5xl text-center lg:text-left font-normal lg:font-light leading-snug">Deixe que a parte chata e trabalhosa a gente faz!</a>
                 <a href="/#" className="mt-5 font-semibold text-center lg:text-left">Somos uma empresa especializada em Digitalização de Documentos e em soluções para Gestão Eletrônica de Doucmentos(GED).</a>
@@ -42,10 +42,10 @@ function Main()
                 </div>
             </div>
         </div>
-        <div className="flex flex-col lg:flex-row items-center lg:justify-between w-full bg-slate-300 mb-20 p-16">
-            <div className="flex flex-col w-auto h-80 bg-white rounded-3xl py-10 mb-10 lg:mb-0 mr-10 ">
-                <a href="/#" className="text-4xl md:text-5xl font-bold text-[#13C194] mt-3 ml-5">Nossos<br/>serviços</a>
-                <a href="/#" className="text-[#13C194] ml-6 mr-6 mt-5 text-sm">Prezamos pela <a className="font-bold">organização e agilidade<br/> na preparação e organização</a> dos seus<br/> arquivos digitalizados. Um serviço<br/> responsável de ponta-a-ponta.</a>
+        <div id="services" className="flex flex-col lg:flex-row items-center lg:justify-between w-full bg-neutral-300 mb-20 p-16">
+            <div className="flex flex-col h-80 bg-white rounded-3xl w-72 py-6 mb-10 lg:mb-0 mr-10 px-4">
+                <a href="/#" className="text-4xl md:text-5xl font-bold text-[#13C194]">Nossos serviços</a>
+                <a href="/#" className="text-[#13C194] text-sm mt-3">Prezamos pela <a className="font-bold">organização e agilidade<br/> na preparação e organização</a> dos seus<br/> arquivos digitalizados. Um serviço<br/> responsável de ponta-a-ponta.</a>
             </div>
             <div>
                 <div className="flex flex-row">
