@@ -25,7 +25,7 @@ function CustomersSlide()
       }]}>
         {images.map(image => <div className="flex items-center justify-center">
             <div key={image} className="bg-[#13C194] w-32 h-32 rounded-lg flex items-center justify-center">
-                <img className="w-24 h-24" src={import.meta.env.BASE_URL + 'public/customers/' + image} />
+                <img className="w-24 h-24" src={import.meta.env.BASE_URL + 'customers/' + image} />
             </div>
         </div>)}
     </Slider>

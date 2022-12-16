@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../assets/images/Logo branca 1.svg"
 
 export default function Footer(){
