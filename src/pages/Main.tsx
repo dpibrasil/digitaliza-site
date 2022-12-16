@@ -20,7 +20,7 @@ function Main()
         <div id="about-us" className="flex flex-col lg:flex-row items-center justify-between lg:mt-24">
             <div className="flex flex-col px-16 py-12 items-center lg:items-start lg:w-5/12">
                 <a href="/#" className="text-4xl lg:text-5xl text-center lg:text-left font-normal lg:font-light leading-snug">Deixe que a parte chata e trabalhosa a gente faz!</a>
-                <a href="/#" className="mt-5 font-semibold text-center lg:text-left">Somos uma empresa especializada em Digitalização de Documentos e em soluções para Gestão Eletrônica de Doucmentos(GED).</a>
+                <a href="/#" className="mt-5 font-semibold text-center lg:text-left">Somos uma empresa especializada em Digitalização de Documentos e em soluções para Gestão Eletrônica de Doucmentos (GED).</a>
                 <button className="w-64 h-14 rounded bg-[#13C194] text-white font-semibold mt-5">Conhecer a Digitaliza</button>
             </div>
             <div>
@@ -38,7 +38,7 @@ function Main()
                 <a href="/#" className=" text-4xl lg:text-5xl font-light leading-snug text-center lg:text-left"><a className="font-medium">Acesso facilitado</a> e Prático de docs (GED) online.</a>
                 <a href="/#" className="mt-5 font-semibold  text-center lg:text-left">Você tem acesso a diversos documentos digitalizados em poucos cliques, acessando apenas a dashboard da sua empresa e pesquisar o arquivo desejado já digitalizado.</a>
                 <div className="flex justify-center lg:justify-start mb-10">
-                    <button className="w-64 h-14 rounded bg-[#13C194] text-white font-semibold mt-5 ">Acessar documentos</button>
+                    <a target="_blank" href="https://ged.digitalizasantana.com.br" className="w-64 h-14 rounded bg-[#13C194] text-white font-semibold mt-5 ">Acessar documentos</a>
                 </div>
             </div>
         </div>
