@@ -6,10 +6,13 @@ import Secure from "../assets/images/Secure login-pana 1.svg"
 import Clock from '../assets/images/clock.svg';
 import Link from '../assets/images/link-2.svg';
 import Layers from '../assets/images/layers.svg';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import CustomersSlide from "../components/CustomersSlide";
 
-function Cube(Props:any){
+function Cube(props:any){
     return <div className="flex w-16 h-16 bg-[#13C194] rounded items-center justify-center">
-        <img src={Props.photo}></img>
+        <img src={props.photo}></img>
     </div>
     }
 
@@ -20,17 +23,18 @@ function Main()
         <div id="about-us" className="flex flex-col lg:flex-row items-center justify-between lg:mt-24">
             <div className="flex flex-col px-16 py-12 items-center lg:items-start lg:w-5/12">
                 <a href="/#" className="text-4xl lg:text-5xl text-center lg:text-left font-normal lg:font-light leading-snug">Deixe que a parte chata e trabalhosa a gente faz!</a>
-                <a href="/#" className="mt-5 font-semibold text-center lg:text-left">Somos uma empresa especializada em Digitalização de Documentos e em soluções para Gestão Eletrônica de Doucmentos (GED).</a>
+                <a href="/#" className="mt-5 font-semibold text-center lg:text-left">Somos uma empresa especializada em Digitalização de Documentos e em soluções para Gestão Eletrônica de Documentos (GED).</a>
                 <button className="w-64 h-14 rounded bg-[#13C194] text-white font-semibold mt-5">Conhecer a Digitaliza</button>
             </div>
             <div>
                 <img src={Imagem} className="px-14 md:px-56 lg:p-0 lg:w-4/6 h-auto "></img>
             </div>
         </div>
-        <div className="flex mt-24 justify-center">
+        <div className="flex mt-24 flex-col justify-center px-[30px]">
             <a className="text-[#13C194] text-4xl lg:text-5xl font-bold text-center">Nós estamos presente em todo o estado</a>
+            <CustomersSlide />
         </div>
-        <div className="flex flex-col lg:flex-row items-center lg:justify-between lg:mt-24">
+        <div className="flex flex-col lg:flex-row items-center lg:justify-between mt-16">
             <div className="px-8">
                 <img src={Secure} className="h-auto md:px-40 lg:p-0"></img>
             </div>

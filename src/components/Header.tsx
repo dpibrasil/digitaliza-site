@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Logo from '../assets/images/Logo.svg';
+import Logo from '../assets/images/Logo.png';
 
 function Header()
 {

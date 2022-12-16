@@ -20,7 +20,7 @@ export default function Footer(){
                 <a className="text-white m-2">Sobre nós</a>
             </div>
             <div className="mt-5">
-                <a className="text-white">Mais de 30 milhões de arquivos digitalizados.</a>
+                <a className="text-white">Mais de 10 milhões de arquivos digitalizados.</a>
             </div>
         </div>
     </div>
