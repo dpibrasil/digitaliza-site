@@ -18,8 +18,6 @@ function Header()
                 </button>
                 <nav className={menuOpen ? 'flex flex-col items-start text-[#16C194] justify-between h-32' : 'hidden md:block'}>
                     <a href="/#services" className="font-bold text-sm lg:text-lg ml-5">Serviços</a>
-                    <a target="_blank" href="https://ged.digitalizasantana.com.br" className="ml-5 lg:ml-10 font-bold text-sm lg:text-lg">GED</a>
-                    <a href="https://cloud.digitalizasantana.com.br" target="_blank" className="ml-5 lg:ml-10 font-bold text-sm lg:text-lg">Digitaliza Cloud</a>
                     <a href="/#about-us" className="ml-5 lg:ml-10 font-bold text-sm lg:text-lg">Sobre nós</a>
                     <a target="_blank" href="https://ged.digitalizasantana.com.br" className="ml-5 lg:ml-10 mr-5 lg:mr-12 px-8 py-2 rounded bg-black text-white font-bold text-sm lg:text-lg">Entrar</a>
                 </nav>
