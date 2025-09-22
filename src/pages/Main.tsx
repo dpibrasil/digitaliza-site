@@ -14,7 +14,7 @@ function Cube(props:any){
     return <div className="flex w-16 h-16 bg-[#13C194] rounded items-center justify-center">
         <img src={props.photo}></img>
     </div>
-    }
+}
 
 function Main()
 {
